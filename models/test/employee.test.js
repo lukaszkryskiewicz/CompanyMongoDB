@@ -47,7 +47,4 @@ describe('Employee', () => {
       });
     }
   });
-  after(() => {
-    mongoose.models = {};
-  });
 });
